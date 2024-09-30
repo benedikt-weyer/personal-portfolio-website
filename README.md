@@ -1,43 +1,41 @@
 # personal-portfolio-website
 Personal portfolio website from Benedikt Weyer
 
-# Welcome to Remix!
 
-- 📖 [Remix docs](https://remix.run/docs)
 
-## Development
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Run the dev server:
+## Getting Started
 
-```shellscript
+First, run the development server:
+
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## Deployment
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-First, build your app for production:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-```sh
-npm run build
-```
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Then run the app in production mode:
+## Learn More
 
-```sh
-npm start
-```
+To learn more about Next.js, take a look at the following resources:
 
-Now you'll need to pick a host to deploy it to.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### DIY
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
+## Deploy on Vercel
 
-Make sure to deploy the output of `npm run build`
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
